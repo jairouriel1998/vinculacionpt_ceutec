@@ -1,0 +1,23 @@
+{
+  "name": "airis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "jairomedrano1998@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.17.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "keywords": [],
+  "description": ""
+}
